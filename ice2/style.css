@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(106, 106, 106);
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.circle{
+    grid-column: 1/-1;
+    width: 100%;
+
+}
+.others{
+    border: 13px solid rgb(64, 64, 64);
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
